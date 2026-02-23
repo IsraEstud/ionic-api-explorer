@@ -62,7 +62,7 @@ src/
 ```
 
 ### Clean Code
-Se ha implementado una capa de servicio (`apiService.ts`) que centraliza todas las peticiones HTTP (`fetch`). Los Stores de Pinia consumen este servicio, manteniendo la lógica de negocio separada de los detalles de implementación de la API.
+Se ha implementado una capa de servicio (`apiService.ts`) que centraliza todas las peticiones HTTP (`axios`). Los Stores de Pinia consumen este servicio, manteniendo la lógica de negocio separada de los detalles de implementación de la API.
 
 ## 🚀 Instalación y Uso
 
